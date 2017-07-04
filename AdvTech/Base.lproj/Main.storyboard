@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AdvTech" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,215 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Independence-Day-USA" translatesAutoresizingMaskIntoConstraints="NO" id="6Hd-yf-9bk">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Q6N-pd-PV0">
+                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" verticalHuggingPriority="120" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Mysterious Cave (Short Story) by Blaise Kellett" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VQf-ug-I6B">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.26463674526720515" blue="0.44291390746893911" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="v3S-tQ-532"/>
+                                        </constraints>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Copy of c_cave-of-wonders" translatesAutoresizingMaskIntoConstraints="NO" id="ExI-EZ-PdX">
+                                        <rect key="frame" x="0.0" y="30" width="343" height="220"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="220" id="0i3-jG-aLW"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" semanticContentAttribute="spatial" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCp-IC-PrN">
+                                        <rect key="frame" x="0.0" y="250" width="343" height="240"/>
+                                        <color key="backgroundColor" red="1" green="0.26463674526720515" blue="0.44291390746893911" alpha="0.80394476232394363" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="240" id="Ebq-P9-MFU"/>
+                                        </constraints>
+                                        <mutableString key="text">One day a young boy named Zack and his family were moving house. When they arrived at their new house they all got out of the car and brought their luggage inside. When they got inside they all unpacked most of their stuff and the kids found their rooms. While the parents unpacked a little bit more the kids Zack, Jake and Heather went outside to find their brand new house was right near a large bush. They asked their mum and dad if they where aloud to go for a little walk in the forest. “Of course but you must promise not to go far,” their mother said. They all promised not to go far and they strolled off for their walk in the forest. On their way they came across a cave. They all entered the cave and saw two passages leading different ways.</mutableString>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="px5-n5-D8K">
+                                        <rect key="frame" x="0.0" y="490" width="343" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="qJG-dK-qNx"/>
+                                        </constraints>
+                                        <state key="normal" title="Enter the Cave">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="vzn-cs-VHa" kind="show" id="oly-Vj-vd7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ub5-8A-0WW">
+                                        <rect key="frame" x="0.0" y="530" width="343" height="117"/>
+                                        <state key="normal" title="Camp Outside">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Qj8-Jy-MHd" kind="show" id="jmk-w5-uDE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Hd-yf-9bk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="11i-H1-qva"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6Hd-yf-9bk" secondAttribute="bottom" id="I76-7e-lQJ"/>
+                            <constraint firstAttribute="trailing" secondItem="6Hd-yf-9bk" secondAttribute="trailing" id="Jqd-2c-rdg"/>
+                            <constraint firstItem="Q6N-pd-PV0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="UF7-0R-XfB"/>
+                            <constraint firstItem="Q6N-pd-PV0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="fI2-zc-IoT"/>
+                            <constraint firstItem="6Hd-yf-9bk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="uph-l0-cBq"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Q6N-pd-PV0" secondAttribute="bottom" id="v3t-Q2-tWR"/>
+                            <constraint firstItem="Q6N-pd-PV0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xM2-Ra-qco"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-60" y="100.29985007496252"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nKi-jE-uIH">
+            <objects>
+                <viewController id="vzn-cs-VHa" customClass="ViewController" customModule="AdvTech" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="a9j-Xa-J0f"/>
+                        <viewControllerLayoutGuide type="bottom" id="34E-Wn-iFd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jV3-pR-J3F">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="GYe-xm-sHc">
+                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" verticalHuggingPriority="120" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Cave Entrance" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7M9-3R-nuA">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Fkw-9v-H4b"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Copy of c_cave-of-wonders" translatesAutoresizingMaskIntoConstraints="NO" id="0yv-oV-wP5">
+                                        <rect key="frame" x="0.0" y="30" width="343" height="220"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="220" id="npm-Gj-NzD"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" semanticContentAttribute="spatial" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KXZ-zi-b9b">
+                                        <rect key="frame" x="0.0" y="250" width="343" height="240"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="240" id="v3g-jC-Qwh"/>
+                                        </constraints>
+                                        <mutableString key="text">“Let’s go in this one, “Jake said pointing to the one on the right. They all agreed and ran down the passage. About 15 minutes later they all found themselves lost. Suddenly out of nowhere a 20ft tall Dragon appeared. It roared fiercely and then started to chase them the way they came. “Run!!!”Heather yelled Frightened they sped off back the way they came. Lucky for them they were a lot faster. Frightened they sped off back the way they came. Moments later they lost it. “Whew, we sure lost that. What was that anyway?” Zack asked. “Some kind of huge lizard type of thing,” Heather replied. “We really need to get out of this cave, but how? Jake asked. “What’s that? Zack asked pointing to a crack in the wall just big enough to fit through. </mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8g-4T-7JW">
+                                        <rect key="frame" x="0.0" y="490" width="343" height="157"/>
+                                        <state key="normal" title="Go back"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="3NS-Ds-Pw9"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GYe-xm-sHc" firstAttribute="trailing" secondItem="jV3-pR-J3F" secondAttribute="trailingMargin" id="9TT-Nj-6bT"/>
+                            <constraint firstItem="34E-Wn-iFd" firstAttribute="top" secondItem="GYe-xm-sHc" secondAttribute="bottom" id="DPP-iD-r0M"/>
+                            <constraint firstItem="GYe-xm-sHc" firstAttribute="leading" secondItem="jV3-pR-J3F" secondAttribute="leadingMargin" id="MWV-KE-ubv"/>
+                            <constraint firstItem="GYe-xm-sHc" firstAttribute="top" secondItem="a9j-Xa-J0f" secondAttribute="bottom" id="raB-WG-UWr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lQE-tS-Ptt" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="721" y="-241"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kJC-ek-7No">
+            <objects>
+                <viewController id="Qj8-Jy-MHd" customClass="ViewController" customModule="AdvTech" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="htN-Wz-FWc"/>
+                        <viewControllerLayoutGuide type="bottom" id="E2j-Sx-JVY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cMf-Ao-fhq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IQC-at-s0A">
+                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" verticalHuggingPriority="120" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Cave Entrance" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eIG-Jg-KAO">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="OJj-9J-RKF"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Copy of c_cave-of-wonders" translatesAutoresizingMaskIntoConstraints="NO" id="DmC-Ss-Jxa">
+                                        <rect key="frame" x="0.0" y="30" width="343" height="220"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="220" id="sv3-Ml-bla"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" semanticContentAttribute="spatial" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8JC-tN-F4W">
+                                        <rect key="frame" x="0.0" y="250" width="343" height="350"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="350" id="QXV-Ju-kD5"/>
+                                        </constraints>
+                                        <mutableString key="text">“Let’s go in it,”Zack said. They all squeezed through the crack in the wall and found themselves at the entrance where they first entered the cave but that same dragon was there sleeping lightly. They all tried to tiptoe outside but apparently the dragon woke up. The dragon chased them but it seemed to be a lot slower. They ran as fast as they could to the entrance and then Jake said, “Look, a sliding gate.” Without a moment to lose he made sure everyone was outside and he slammed the gate shut and locked it. They could still see the dragon through the little holes in the gate. It walked away to lay down and start sleeping. They walked home while they where still wondering about the dragon they saw. They ran inside and before they could say a word about the cave and what they witnessed, “Kids your father has gone to explore a cave in the forest for a while that he had heard of,” Their mother said. The kids looked at each other in fright then they all ran outside into the forest and started yelling “Dad! That cave is dangerous! Don’t go in it, it’s easy to get lost and there is a massive dragon in there.” Suddenly they all heard a scream coming from the cave. 
+“Aaaaahhhhh”……
+</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8lB-xr-x2f">
+                                        <rect key="frame" x="0.0" y="600" width="343" height="47"/>
+                                        <state key="normal" title="Go back"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="xVI-2C-Is2"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IQC-at-s0A" firstAttribute="leading" secondItem="cMf-Ao-fhq" secondAttribute="leadingMargin" id="Pkt-wh-sYZ"/>
+                            <constraint firstItem="E2j-Sx-JVY" firstAttribute="top" secondItem="IQC-at-s0A" secondAttribute="bottom" id="SYF-4X-VH7"/>
+                            <constraint firstItem="IQC-at-s0A" firstAttribute="trailing" secondItem="cMf-Ao-fhq" secondAttribute="trailingMargin" id="i2y-gY-g6N"/>
+                            <constraint firstItem="IQC-at-s0A" firstAttribute="top" secondItem="htN-Wz-FWc" secondAttribute="bottom" id="llO-pZ-dIv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B6U-4P-jqq" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="721" y="452"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Copy of c_cave-of-wonders" width="550" height="284"/>
+        <image name="Independence-Day-USA" width="640" height="1136"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="xVI-2C-Is2"/>
+    </inferredMetricsTieBreakers>
 </document>
