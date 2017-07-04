@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		948EC8271F0C02E600E13351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948EC8261F0C02E600E13351 /* AppDelegate.swift */; };
+		948EC8291F0C02E600E13351 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948EC8281F0C02E600E13351 /* ViewController.swift */; };
+		948EC82C1F0C02E600E13351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948EC82A1F0C02E600E13351 /* Main.storyboard */; };
+		948EC82E1F0C02E600E13351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948EC82D1F0C02E600E13351 /* Assets.xcassets */; };
+		948EC8311F0C02E600E13351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948EC82F1F0C02E600E13351 /* LaunchScreen.storyboard */; };
+		948EC83C1F0C02E600E13351 /* AdvTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948EC83B1F0C02E600E13351 /* AdvTechTests.swift */; };
+		948EC8471F0C02E600E13351 /* AdvTechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948EC8461F0C02E600E13351 /* AdvTechUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		948EC8381F0C02E600E13351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 948EC81B1F0C02E600E13351 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 948EC8221F0C02E600E13351;
+			remoteInfo = AdvTech;
+		};
+		948EC8431F0C02E600E13351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 948EC81B1F0C02E600E13351 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 948EC8221F0C02E600E13351;
+			remoteInfo = AdvTech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		948EC8231F0C02E600E13351 /* AdvTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		948EC8261F0C02E600E13351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		948EC8281F0C02E600E13351 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		948EC82B1F0C02E600E13351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		948EC82D1F0C02E600E13351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		948EC8301F0C02E600E13351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		948EC8321F0C02E600E13351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948EC8371F0C02E600E13351 /* AdvTechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvTechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		948EC83B1F0C02E600E13351 /* AdvTechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvTechTests.swift; sourceTree = "<group>"; };
+		948EC83D1F0C02E600E13351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948EC8421F0C02E600E13351 /* AdvTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		948EC8461F0C02E600E13351 /* AdvTechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvTechUITests.swift; sourceTree = "<group>"; };
+		948EC8481F0C02E600E13351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		948EC8201F0C02E600E13351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948EC8341F0C02E600E13351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948EC83F1F0C02E600E13351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		948EC81A1F0C02E600E13351 = {
+			isa = PBXGroup;
+			children = (
+				948EC8251F0C02E600E13351 /* AdvTech */,
+				948EC83A1F0C02E600E13351 /* AdvTechTests */,
+				948EC8451F0C02E600E13351 /* AdvTechUITests */,
+				948EC8241F0C02E600E13351 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		948EC8241F0C02E600E13351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				948EC8231F0C02E600E13351 /* AdvTech.app */,
+				948EC8371F0C02E600E13351 /* AdvTechTests.xctest */,
+				948EC8421F0C02E600E13351 /* AdvTechUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		948EC8251F0C02E600E13351 /* AdvTech */ = {
+			isa = PBXGroup;
+			children = (
+				948EC8261F0C02E600E13351 /* AppDelegate.swift */,
+				948EC8281F0C02E600E13351 /* ViewController.swift */,
+				948EC82A1F0C02E600E13351 /* Main.storyboard */,
+				948EC82D1F0C02E600E13351 /* Assets.xcassets */,
+				948EC82F1F0C02E600E13351 /* LaunchScreen.storyboard */,
+				948EC8321F0C02E600E13351 /* Info.plist */,
+			);
+			path = AdvTech;
+			sourceTree = "<group>";
+		};
+		948EC83A1F0C02E600E13351 /* AdvTechTests */ = {
+			isa = PBXGroup;
+			children = (
+				948EC83B1F0C02E600E13351 /* AdvTechTests.swift */,
+				948EC83D1F0C02E600E13351 /* Info.plist */,
+			);
+			path = AdvTechTests;
+			sourceTree = "<group>";
+		};
+		948EC8451F0C02E600E13351 /* AdvTechUITests */ = {
+			isa = PBXGroup;
+			children = (
+				948EC8461F0C02E600E13351 /* AdvTechUITests.swift */,
+				948EC8481F0C02E600E13351 /* Info.plist */,
+			);
+			path = AdvTechUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		948EC8221F0C02E600E13351 /* AdvTech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 948EC84B1F0C02E600E13351 /* Build configuration list for PBXNativeTarget "AdvTech" */;
+			buildPhases = (
+				948EC81F1F0C02E600E13351 /* Sources */,
+				948EC8201F0C02E600E13351 /* Frameworks */,
+				948EC8211F0C02E600E13351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvTech;
+			productName = AdvTech;
+			productReference = 948EC8231F0C02E600E13351 /* AdvTech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		948EC8361F0C02E600E13351 /* AdvTechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 948EC84E1F0C02E600E13351 /* Build configuration list for PBXNativeTarget "AdvTechTests" */;
+			buildPhases = (
+				948EC8331F0C02E600E13351 /* Sources */,
+				948EC8341F0C02E600E13351 /* Frameworks */,
+				948EC8351F0C02E600E13351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				948EC8391F0C02E600E13351 /* PBXTargetDependency */,
+			);
+			name = AdvTechTests;
+			productName = AdvTechTests;
+			productReference = 948EC8371F0C02E600E13351 /* AdvTechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		948EC8411F0C02E600E13351 /* AdvTechUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 948EC8511F0C02E600E13351 /* Build configuration list for PBXNativeTarget "AdvTechUITests" */;
+			buildPhases = (
+				948EC83E1F0C02E600E13351 /* Sources */,
+				948EC83F1F0C02E600E13351 /* Frameworks */,
+				948EC8401F0C02E600E13351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				948EC8441F0C02E600E13351 /* PBXTargetDependency */,
+			);
+			name = AdvTechUITests;
+			productName = AdvTechUITests;
+			productReference = 948EC8421F0C02E600E13351 /* AdvTechUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		948EC81B1F0C02E600E13351 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "ID Tech";
+				TargetAttributes = {
+					948EC8221F0C02E600E13351 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					948EC8361F0C02E600E13351 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 948EC8221F0C02E600E13351;
+					};
+					948EC8411F0C02E600E13351 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 948EC8221F0C02E600E13351;
+					};
+				};
+			};
+			buildConfigurationList = 948EC81E1F0C02E600E13351 /* Build configuration list for PBXProject "AdvTech" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 948EC81A1F0C02E600E13351;
+			productRefGroup = 948EC8241F0C02E600E13351 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				948EC8221F0C02E600E13351 /* AdvTech */,
+				948EC8361F0C02E600E13351 /* AdvTechTests */,
+				948EC8411F0C02E600E13351 /* AdvTechUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		948EC8211F0C02E600E13351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948EC8311F0C02E600E13351 /* LaunchScreen.storyboard in Resources */,
+				948EC82E1F0C02E600E13351 /* Assets.xcassets in Resources */,
+				948EC82C1F0C02E600E13351 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948EC8351F0C02E600E13351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948EC8401F0C02E600E13351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		948EC81F1F0C02E600E13351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948EC8291F0C02E600E13351 /* ViewController.swift in Sources */,
+				948EC8271F0C02E600E13351 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948EC8331F0C02E600E13351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948EC83C1F0C02E600E13351 /* AdvTechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948EC83E1F0C02E600E13351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948EC8471F0C02E600E13351 /* AdvTechUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		948EC8391F0C02E600E13351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 948EC8221F0C02E600E13351 /* AdvTech */;
+			targetProxy = 948EC8381F0C02E600E13351 /* PBXContainerItemProxy */;
+		};
+		948EC8441F0C02E600E13351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 948EC8221F0C02E600E13351 /* AdvTech */;
+			targetProxy = 948EC8431F0C02E600E13351 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		948EC82A1F0C02E600E13351 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				948EC82B1F0C02E600E13351 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		948EC82F1F0C02E600E13351 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				948EC8301F0C02E600E13351 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		948EC8491F0C02E600E13351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		948EC84A1F0C02E600E13351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		948EC84C1F0C02E600E13351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdvTech/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idtech.DimaZ.AdvTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		948EC84D1F0C02E600E13351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdvTech/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idtech.DimaZ.AdvTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		948EC84F1F0C02E600E13351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdvTechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idtech.DimaZ.AdvTechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvTech.app/AdvTech";
+			};
+			name = Debug;
+		};
+		948EC8501F0C02E600E13351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdvTechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idtech.DimaZ.AdvTechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvTech.app/AdvTech";
+			};
+			name = Release;
+		};
+		948EC8521F0C02E600E13351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AdvTechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idtech.DimaZ.AdvTechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AdvTech;
+			};
+			name = Debug;
+		};
+		948EC8531F0C02E600E13351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AdvTechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idtech.DimaZ.AdvTechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AdvTech;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		948EC81E1F0C02E600E13351 /* Build configuration list for PBXProject "AdvTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948EC8491F0C02E600E13351 /* Debug */,
+				948EC84A1F0C02E600E13351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		948EC84B1F0C02E600E13351 /* Build configuration list for PBXNativeTarget "AdvTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948EC84C1F0C02E600E13351 /* Debug */,
+				948EC84D1F0C02E600E13351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		948EC84E1F0C02E600E13351 /* Build configuration list for PBXNativeTarget "AdvTechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948EC84F1F0C02E600E13351 /* Debug */,
+				948EC8501F0C02E600E13351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		948EC8511F0C02E600E13351 /* Build configuration list for PBXNativeTarget "AdvTechUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948EC8521F0C02E600E13351 /* Debug */,
+				948EC8531F0C02E600E13351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 948EC81B1F0C02E600E13351 /* Project object */;
+}
